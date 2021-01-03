@@ -1,0 +1,39 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.header-top {
+    position: relative;
+    color:white;
+}
+.header-top .name{
+    font-family: "微软雅黑 Light";
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 10px;
+}
+.header-top .login-act{
+    margin-left: 520px;
+}
+.header-top .login-act>a{
+    cursor: pointer;
+    color:white;
+    margin-left: 15px;
+}
+.header-top .login-act>a:hover{
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+.header-top div
+{
+    /*border: 1px solid black;*/
+    display: inline-block;
+    margin-left: 80px;
+}
+.header-top .phone span{
+    margin-left: 10px;
+}
